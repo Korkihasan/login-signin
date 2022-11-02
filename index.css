@@ -9,9 +9,9 @@ body{background-color:hsl(185deg, 75%, 39%);
     font-family: 'Signika', sans-serif;}
 
 
-.Login-Signup{display:flex;justify-content:center;align-content: center;}
+.Login-Signup{display:flex;justify-content:center;align-content: center;height:100vh;width:100%;}
 
-#signdisplay{display:none;}
+#signdisplay{display:flex;}
 
 .container{display:flex;
            justify-content:center;
