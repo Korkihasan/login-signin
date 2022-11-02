@@ -18,7 +18,7 @@ function login() {
   document.getElementById("logindisplay").style.display = "flex";
 
   element1.classList.add("animate__animated");
-  element.classList.add("animate__flipInY");
+  element1.classList.add("animate__flipInY");
   remove.classList.remove("animate__animated");
   remove.classList.remove("animate__flipInY");
 }
