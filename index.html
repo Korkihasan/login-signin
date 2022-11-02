@@ -5,33 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Login signup Karts</title>
   </head>
   <body>
     <div class="Login-Signup">
-      <div class="container spacing">
+      <div class="container logindisplay" id="logindisplay">
         <h1>Login</h1>
         <div class="card-background-image">
           <span class="icon-placer">
-            <div class="icon-box"><img src="images/login.png" /></div>
+            <div class="icon-box">
+              <img id="loginimg" class="loginimg" src="images/login.png" />
+            </div>
           </span>
         </div>
         <div class="card-content">
           <form class="form-content-center">
             <div>
-              <input class="inputs" placeholder="User Name" type="text" />
+              <input
+                id="loginusername"
+                class="inputs"
+                placeholder="User Name"
+                type="text"
+              />
             </div>
             <div>
               <input class="inputs" placeholder="Password" type="password" />
             </div>
+            <div>
+              <label><a href="#">Forgot password?</a></label>
+            </div>
+
             <div class="button-center-flex-end">
               <button class="button-login-signup">Login</button>
             </div>
+            <label
+              >Don't have an account?
+              <button onclick="signup()">Signup now</button></label
+            >
           </form>
         </div>
       </div>
       <div class="container">
-        <div>
+        <div class="signdisplay" id="signdisplay">
           <h1>Sign in</h1>
           <div class="card-background-image">
             <span class="icon-placer">
@@ -63,10 +82,15 @@
               <div class="button-center-flex-end">
                 <button class="button-login-signup">Sign in</button>
               </div>
+              <label
+                >already have an account?
+                <button onclick="login()">Login</button></label
+              >
             </form>
           </div>
         </div>
       </div>
     </div>
+    <script src="login.js"></script>
   </body>
 </html>

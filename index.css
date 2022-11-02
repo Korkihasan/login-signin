@@ -11,7 +11,9 @@ body{background-color:hsl(185deg, 75%, 39%);
 
 .Login-Signup{display:flex;justify-content:center;align-content: center;}
 
-.spacing{margin-right:100px;}
+#signdisplay{display:none;}
+#logindisplay{display:flex;}
+
 
 .container{display:flex;
            justify-content:center;
@@ -23,10 +25,10 @@ body{background-color:hsl(185deg, 75%, 39%);
 
 
 
-.card-background-image{background-image: url(images/bg-pattern-card.svg);
+.card-background-image{background-image: url(images/card-foto.png);
                             background-repeat: no-repeat;
                             background-color:white;
-                            width:21.875rem;
+                            width: 23rem;
                             height:11.75rem;
                             border-radius: 10px 10px 0px 0px;}
 
@@ -44,8 +46,8 @@ body{background-color:hsl(185deg, 75%, 39%);
        justify-content:center;
        align-items: center;}
                         
-.card-content{width:21.875rem;
-              height:14rem;
+.card-content{width: 23rem;
+              height:17rem;
               background-color:white;
               border-radius: 0px 0px 10px 10px;
               padding:15px;}
