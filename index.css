@@ -8,6 +8,7 @@
 
 .animate__flipInY {
   --animate-duration: 0.5s;
+  --animate-delay: 0.5s;
 }
 
 body {
