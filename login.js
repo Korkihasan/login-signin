@@ -19,9 +19,9 @@ function login() {
 
   element1.classList.add("animate__animated");
   element1.classList.add("animate__flipInY");
-  element1.classList.add("animate__slow");
+  element1.classList.add("animate__delay-0.5s");
 
   remove.classList.remove("animate__animated");
   remove.classList.remove("animate__flipInY");
-  remove.classList.remove("animate__slow");
+  remove.classList.remove("animate__delay-0.5s");
 }
