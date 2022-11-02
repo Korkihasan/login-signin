@@ -3,7 +3,7 @@ function signup() {
   document.getElementById("logindisplay").style.display = "none";
 
   const element = document.querySelector(".signdisplay");
-  element.classList.add("animate__animated", "animate__zoomInLeft");
+  element.classList.add("animate__animated", "animate__flipInY");
 }
 
 function login() {
@@ -11,5 +11,5 @@ function login() {
   document.getElementById("logindisplay").style.display = "flex";
 
   const element1 = document.querySelector(".logindisplay");
-  element1.classList.add("animate__animated", "animate__zoomInRight");
+  element1.classList.add("animate__animated", "animate__flipInY");
 }
