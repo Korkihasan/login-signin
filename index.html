@@ -35,17 +35,20 @@
             <div>
               <input class="inputs" placeholder="Password" type="password" />
             </div>
-            <div>
-              <label><a href="#">Forgot password?</a></label>
-            </div>
+
+            <label class="forgot-password">
+              <a href="#">Forgot password?</a>
+            </label>
 
             <div class="button-center-flex-end">
               <button class="button-login-signup">Login</button>
             </div>
 
-            <label
-              >Don't have an account?
-              <button onclick="signup()">Signup now</button>
+            <label class="register-login">
+              Don't have an account?
+              <button class="register-login-button" onclick="signup()">
+                Signup now
+              </button>
             </label>
           </div>
         </div>
@@ -85,9 +88,11 @@
                 <button class="button-login-signup">Sign in</button>
               </div>
 
-              <label
+              <label class="register-login"
                 >already have an account?
-                <button onclick="login()">Login</button>
+                <button class="register-login-button" onclick="login()">
+                  Login
+                </button>
               </label>
             </div>
           </div>

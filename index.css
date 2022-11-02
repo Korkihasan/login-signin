@@ -109,6 +109,21 @@ body {
   outline: none;
 }
 
+.forgot-password {
+  width: 220px;
+}
+.forgot-password a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #c5c4c4;
+}
+.forgot-password a:visited {
+  color: #c5c4c4;
+}
+.forgot-password a:hover {
+  color: #3f3d3d;
+}
+
 .button-center-flex-end {
   display: flex;
   justify-content: center;
@@ -132,6 +147,22 @@ body {
 }
 .button-login-signup:active {
   background-color: #40a8af;
+}
+
+.register-login {
+  font-size: 13px;
+}
+
+.register-login-button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #11aeb9;
+  margin-top: 15px;
+}
+.register-login-button:hover {
+  color: #36787e;
 }
 
 @media only screen and (max-width: 850px) {
