@@ -1,9 +1,9 @@
 function signup() {
-  document.getElementById("signdisplay").style.display = "block";
+  document.getElementById("signdisplay").style.display = "flex";
   document.getElementById("logindisplay").style.display = "none";
 
   const element = document.querySelector(".signdisplay");
-  element.classList.add("animate__animated", "animate__slideInRight");
+  element.classList.add("animate__animated", "animate__zoomInLeft");
 }
 
 function login() {
@@ -11,5 +11,5 @@ function login() {
   document.getElementById("logindisplay").style.display = "flex";
 
   const element1 = document.querySelector(".logindisplay");
-  element1.classList.add("animate__animated", "animate__slideInLeft");
+  element1.classList.add("animate__animated", "animate__zoomInRight");
 }

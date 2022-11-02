@@ -12,8 +12,6 @@ body{background-color:hsl(185deg, 75%, 39%);
 .Login-Signup{display:flex;justify-content:center;align-content: center;}
 
 #signdisplay{display:none;}
-#logindisplay{display:flex;}
-
 
 .container{display:flex;
            justify-content:center;
