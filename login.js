@@ -11,5 +11,5 @@ function login() {
   document.getElementById("logindisplay").style.display = "flex";
 
   const element1 = document.querySelector(".logindisplay");
-  element1.classList.add("animate__animated", "animate__flipOutY");
+  element1.classList.add("animate__animated", "animate__flipInY");
 }
