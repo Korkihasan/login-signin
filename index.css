@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.animate__flipInY {
+  --animate-duration: 0.5s;
+}
+
 body {
   background-color: hsl(185deg, 75%, 39%);
   background-position: right 66vw bottom 53vh, left 71vw top 65vh;
